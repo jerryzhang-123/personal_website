@@ -17,3 +17,11 @@ body{
   a:hover{color:red;text-decoration: underline;}
   img:hover{opacity:0.7}
   h5{margin-left:20px}
+  body {
+    background-image: url(2025-03-14_17.59.09.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  

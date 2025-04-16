@@ -16,12 +16,18 @@ function changeHeadingSize(){
     let size = document.getElementById("sizeInput").value;
     document.getElementById("size").style.fontSize = size + "px";
 }
-function checkAge(){
-    let age = document.getElementById("ageInput").value;
-    if(age >= 18){
+window.onload = function() {
+    let name = prompt("please type your age:");
+    if(name >= 18){
         alert("you're an adult!");
     }else{
         alert("you're still a kid");
     }
+}
+function favorite(){
+    alert("you liked this picture.")
+}
+function unfavorite(){
+    alert("you unliked this picture.")
 }
 console.log
