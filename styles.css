@@ -2,16 +2,27 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(0, 200, 255);
   }
-  h1{color:rgba(3, 14, 3, 0);
+  h1{color:rgb(240, 52, 15);
    text-align:center;}
-  p{font-size:16px;}
+  p{background: linear-gradient(to right, 
+    red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+    font-size:16px;}
   img{width:250px;
     border:3px solid black;
     border-radius: 10px;}
   video{width:250px}
   ul, ol{margin-left:20px}
   #main-title{
-    color:rgb(11, 11, 16);
+    background: linear-gradient(to right, 
+    red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: center;
     font-size:50px
   }
   a:hover{color:red;text-decoration: underline;}
